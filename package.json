@@ -1,0 +1,16 @@
+{
+  "name": "mollica-e-moka",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Sitio de Mollica e Moka + backend serverless (Vercel): checkout de Mercado Pago, webhook y registro de pedidos en Google Sheets.",
+  "type": "commonjs",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "check-prices": "node scripts/check-prices.js",
+    "test": "node scripts/test-local.js"
+  },
+  "dependencies": {
+    "mercadopago": "^3.0.0",
+    "googleapis": "^140.0.1"
+  }
+}
